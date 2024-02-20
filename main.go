@@ -16,8 +16,8 @@ var (
 
 func main() {
     redisClient = redis.NewClient(&redis.Options{
-        Addr:     "localhost:6379",
-        Password: "",
+        Addr:     "viaduct.proxy.rlwy.net:41040",
+        Password: "lhfhjMiLA3dbjoDdeBLM5oefmOOpMfDo",
         DB:       0,
     })
 
